@@ -1,3 +1,3 @@
 # Kakao Clone 2021 Update
 
-I studied html and CSS!
+HTML and CSS are fun!
