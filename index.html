@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Welcome to Kakao Talk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
+         <div class="status-bar__column"></div>
+      <span> No Service</span>
+                            <i class="fas fa-wifi"></i>
             <div class="status-bar__column"></div>
-                <span>No Service</span>
-                <!--TO do:Wifi Icon-->
+                <span>19:00</span>
             <div class="status-bar__column"></div>
-                <span>18:43</span>
-            <div class="status-bar__column"></div>
-                <span>100%</span>
-                <!--battery icon-->
-                <!--Lightening icon-->
+                <span>81%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+                <i class="fas fa-bolt"></i>
         </div>
+
+        <header class="welcome-header ">
+            <h1 class="welcome-header__title">Welcome to Kakao Talk</h1>
+            <p class="welcome-header__text">If you have Kakao Account, log in with your email or phone number</p>
+        </header>
+
+
+        <form id="login-form">
+            <input type="text" placeholder="Email or Phone number"/>
+            <input type="password" placeholder="password"/>
+            <input type="submit" value="Log In"/>
+            <a href="#">Find Kakao Account or password</a> 
+        </form>
+
+        
+        <script src="https://kit.fontawesome.com/d49b8ea23f.js" crossorigin="anonymous"></script>
 </body>
 </html>
