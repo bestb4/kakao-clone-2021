@@ -3,6 +3,11 @@
 /*components*/
 @import"status-bar.css";
 @import"components/nav-bar.css";
+@import"components/screen-header.css";
+
+
+/*screens*/
+@import"screens/login.css";
 
 body{
     background-color: yellowgreen;
@@ -43,6 +48,7 @@ body{
     border-bottom: 3px solid black;
     margin-bottom:20px;
     transition: border-color 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 #login-form input:not([type="submit"]){
