@@ -1,11 +1,11 @@
 .user-component__column{
+    display:flex;
+    align-items: center;
     justify-content:space-between;
 }
 
 .user-component,
-.user-component__column,
 .user-component__column:first-child{
-
     display:flex;
     align-items:center;
 }
@@ -14,8 +14,10 @@
     width:70px;
     height:70px;
     border-radius: 27px;
-    margin-left:20px;
+    margin-right:20px;
 }
+
+
 
 .user-component__text{
     margin-left:20px;
@@ -50,5 +52,4 @@
 .user-component__avatar--xl{
     width:80px;
     height:80px;
-    border-radius: 35px;
 }

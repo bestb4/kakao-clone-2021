@@ -10,6 +10,7 @@
 
 /*screens*/
 @import"screens/login.css";
+@import"components/badge.css";
 
 body{
     background-color: yellowgreen;
