@@ -1,8 +1,9 @@
-.user-component{
-    justify-context:space-between;
+.user-component__column{
+    justify-content:space-between;
 }
 
 .user-component,
+.user-component__column,
 .user-component__column:first-child{
 
     display:flex;
@@ -37,10 +38,17 @@
 .user-component__title{
     font-weight: 600;
     font-size:22px;
+    
 }
 
 .user-component__subtitle{
     margin-top:8px;
     font-size:17px;
     color:rgba(0,0,0,0.5)
+}
+
+.user-component__avatar--xl{
+    width:80px;
+    height:80px;
+    border-radius: 35px;
 }
