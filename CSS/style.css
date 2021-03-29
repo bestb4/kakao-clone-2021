@@ -7,10 +7,10 @@
 @import"components/user-component.css";
 @import"components/friends.css";
 @import"components/variables.css";
-
+@import"components/badge.css";
 /*screens*/
 @import"screens/login.css";
-@import"components/badge.css";
+@import"screens/find.css";
 
 body{
     background-color: yellowgreen;
